@@ -5,6 +5,15 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    macros {
+        cmd_ctrl_shift: cmd_ctrl_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp LEFT_CONTROL>;
+            label = "CMD_CTRL_SHIFT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
