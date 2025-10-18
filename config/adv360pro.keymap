@@ -9,7 +9,13 @@
         cmd_ctrl_shift: cmd_ctrl_shift {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp LEFT_CONTROL>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp LEFT_SHIFT>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp LEFT_SHIFT>;
+
             label = "CMD_CTRL_SHIFT";
         };
     };
