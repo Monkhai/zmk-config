@@ -63,6 +63,7 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LCTL|MOD_RCTL)>;
+            keep-mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         paren_close_shift: paren_close_shift {
@@ -82,7 +83,7 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LCTL|MOD_RCTL)>;
-            keep-mods = <(MOD_LCTL|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT|MOD_LSFT)>;
         };
     };
 
