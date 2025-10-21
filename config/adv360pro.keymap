@@ -117,11 +117,11 @@
 
         mod {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                                        &trans       &none  &none                 &none                  &none  &none  &none
-&none  &none         &none         &none         &none         &none         &bootloader                                                                  &bootloader  &none  &kp LESS_THAN         &kp GREATER_THAN       &none  &none  &none
-&none  &none         &none         &kp MINUS     &kp EQUAL     &none         &none               &none  &none    &bt BT_CLR  &none                        &none        &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none  &none
-&none  &none         &none         &kp UNDER     &kp PLUS      &none                                    &none    &none                                                 &none  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none  &none
-&none  &none         &none         &none         &none                                    &none  &none  &none    &none       &bl BL_TOG  &rgb_ug RGB_TOG                      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none  &none  &none
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                                                        &trans       &trans  &trans                &trans                 &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &bootloader                                                                   &bootloader  &trans  &kp LESS_THAN         &kp GREATER_THAN       &trans  &trans  &trans
+&trans  &trans        &trans        &kp MINUS     &kp EQUAL     &trans        &trans              &trans  &trans    &bt BT_CLR  &trans                        &trans       &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
+&trans  &trans        &trans        &kp UNDER     &kp PLUS      &trans                                    &trans    &trans                                                 &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans                                   &trans  &trans  &trans    &trans      &bl BL_TOG  &rgb_ug RGB_TOG                       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans
             >;
         };
 
