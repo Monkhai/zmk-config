@@ -117,11 +117,11 @@
 
         mod {
             bindings = <
-&trans  &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4  &trans                                                                                      &trans       &trans       &trans                &trans                 &trans          &trans           &trans
-&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(N5)    &bootloader                                                                                 &bootloader  &trans       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans          &trans           &trans
-&trans  &trans            &kp UNDER         &kp MINUS         &kp EQUAL         &kp PLUS      &trans               &kp C_PREVIOUS  &kp C_NEXT    &bt BT_CLR  &trans                       &kp CARET    &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &kp N1            &kp N2            &kp N3            &kp N4            &kp N5                                             &trans        &trans                                                &kp N6       &kp N7                &kp N8                 &kp N9          &kp N0           &trans
-&trans  &trans            &trans            &trans            &trans                                       &trans  &trans          &trans        &trans      &bl BL_TOG  &rgb_ug RGB_TOG                            &trans                &trans                 &trans          &trans           &trans
+&trans  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4  &trans                                                                                      &trans       &trans       &trans                &trans                 &trans                &trans                &trans
+&trans  &kp LA(NUMBER_1)      &kp LA(NUMBER_2)      &kp LA(NUMBER_3)      &kp LA(NUMBER_4)      &kp LA(N5)    &bootloader                                                                                 &bootloader  &trans       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                &trans                &trans
+&trans  &trans                &kp UNDER             &kp MINUS             &kp EQUAL             &kp PLUS      &trans               &kp C_PREVIOUS  &kp C_NEXT    &bt BT_CLR  &trans                       &kp CARET    &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE        &kp RIGHT_BRACE       &trans
+&trans  &kp N1                &kp N2                &kp N3                &kp N4                &kp N5                                             &trans        &trans                                                &kp N6       &kp N7                &kp N8                 &kp N9                &kp N0                &trans
+&trans  &kp LC(LS(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LS(LC(NUMBER_4))                             &trans  &trans          &trans        &trans      &bl BL_TOG  &rgb_ug RGB_TOG                            &kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))   &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))  &trans
             >;
         };
     };
