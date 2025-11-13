@@ -121,17 +121,17 @@
 &trans  &kp LA(NUMBER_1)      &kp LA(NUMBER_2)      &kp LA(NUMBER_3)      &kp LA(NUMBER_4)      &kp LA(N5)    &bootloader                                                                              &bootloader  &trans       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans          &trans           &trans
 &trans  &trans                &kp UNDER             &kp MINUS             &kp EQUAL             &kp PLUS      &trans                  &kp C_PREVIOUS  &kp C_NEXT       &bt BT_CLR  &trans              &kp CARET    &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
 &trans  &kp N1                &kp N2                &kp N3                &kp N4                &kp N5                                                &trans           &trans                                       &kp N6       &kp N7                &kp N8                 &kp N9          &kp N0           &trans
-&trans  &kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))                             &kp LG(P)  &kp LG(S)       &kp LC(SPACE)    &trans      &bl BL_TOG  &trans                            &kp LG(LA(J))         &kp LG(LA(K))          &mkp LCLK       &mkp RCLK        &mkp MCLK
+&trans  &kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))                             &kp LG(P)  &kp LG(S)       &kp LC(SPACE)    &trans      &bl BL_TOG  &trans                            &kp LG(LA(J))         &kp LG(LA(K))          &kp PERIOD      &trans           &trans
             >;
         };
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                             &trans  &trans  &trans          &trans          &trans        &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                             &trans  &trans  &trans          &trans          &trans        &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans     &trans       &trans  &trans          &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                &trans       &trans                          &trans  &msc SCRL_DOWN  &msc SCRL_UP    &trans        &trans           &trans
-&trans  &trans  &trans  &trans  &trans                  &mkp LCLK  &mkp RCLK  &mkp MCLK    &trans  &trans  &trans                  &trans          &trans          &trans        &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                             &trans  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                             &trans  &trans          &msc SCRL_DOWN  &msc SCRL_UP  &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans     &trans       &trans  &trans          &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                &trans       &trans                          &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &mkp LCLK  &mkp RCLK  &mkp MCLK    &trans  &trans  &trans                          &trans          &trans        &trans           &trans  &trans
             >;
         };
     };
