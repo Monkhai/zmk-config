@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&lt { tapping-term-ms = <250>; };
+
 / {
     macros {
         cmd_ctrl_shift: cmd_ctrl_shift {
@@ -41,27 +43,16 @@
         };
     };
 
-    behaviors {
-        hold_tap: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <80>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp EQUAL         &kp N1     &kp N2        &kp N3  &kp N4   &kp N5  &tog 1                                                                                        &mo 2    &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
-&kp TAB           &kp Q      &kp W         &kp E   &kp R    &kp T   &kp F1                                                                                        &kp F12  &kp Y   &kp U     &kp I      &kp O    &kp P      &kp BSLH
-&kp ESC           &kp A      &kp S         &kp D   &kp F    &kp G   &kp F2             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_PLAY_PAUSE  &mo 3             &none    &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LSHFT         &kp Z      &kp X         &kp C   &kp V    &kp B                                         &kp LEFT_GUI        &kp LEFT_GUI                                 &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
-&kp LEFT_COMMAND  &kp GRAVE  &msc SCRL_UP  &mo 3   &kp TAB                  &kp SPACE  &kp BACKSPACE      &kp LEFT_CONTROL    &kp LEFT_ALT      &kp ENTER  &mo 2                   &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp LEFT_COMMAND
+&kp EQUAL         &kp N1     &kp N2        &kp N3  &kp N4   &kp N5  &tog 1                                                                                          &mo 2    &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
+&kp TAB           &kp Q      &kp W         &kp E   &kp R    &kp T   &kp F1                                                                                          &kp F12  &kp Y   &kp U     &kp I      &kp O    &kp P      &kp BSLH
+&kp ESC           &kp A      &kp S         &kp D   &kp F    &kp G   &kp F2               &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_PLAY_PAUSE  &mo 3             &none    &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LSHFT         &kp Z      &kp X         &kp C   &kp V    &kp B                                           &kp LEFT_GUI        &kp LEFT_GUI                                 &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
+&kp LEFT_COMMAND  &kp GRAVE  &msc SCRL_UP  &mo 3   &kp TAB                  &lt 3 SPACE  &kp BACKSPACE      &kp LEFT_CONTROL    &kp LEFT_ALT      &kp ENTER  &mo 2                   &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp LEFT_COMMAND
             >;
         };
 
