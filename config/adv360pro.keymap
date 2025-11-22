@@ -6,7 +6,7 @@
 
 &lt {
     tapping-term-ms = <120>;
-    quick-tap-ms = <60>;
+    quick-tap-ms = <20>;
 };
 
 / {
