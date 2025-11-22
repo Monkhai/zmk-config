@@ -48,11 +48,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL         &kp N1     &kp N2        &kp N3  &kp N4   &kp N5  &tog 1                                                                                          &mo 2    &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
-&kp TAB           &kp Q      &kp W         &kp E   &kp R    &kp T   &kp F1                                                                                          &kp F12  &kp Y   &kp U     &kp I      &kp O    &kp P      &kp BSLH
-&kp ESC           &kp A      &kp S         &kp D   &kp F    &kp G   &kp F2               &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_PLAY_PAUSE  &mo 3             &none    &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LSHFT         &kp Z      &kp X         &kp C   &kp V    &kp B                                           &kp LEFT_GUI        &kp LEFT_GUI                                 &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
-&kp LEFT_COMMAND  &kp GRAVE  &msc SCRL_UP  &mo 3   &kp TAB                  &lt 3 SPACE  &kp BACKSPACE      &kp LEFT_CONTROL    &kp LEFT_ALT      &kp ENTER  &mo 2                   &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp LEFT_COMMAND
+&kp EQUAL         &kp N1     &kp N2        &kp N3  &kp N4   &kp N5  &tog 1                                                                                        &mo 2    &kp N6  &kp N7    &kp N8     &kp N9   &kp N0     &kp MINUS
+&kp TAB           &kp Q      &kp W         &kp E   &kp R    &kp T   &kp F1                                                                                        &kp F12  &kp Y   &kp U     &kp I      &kp O    &kp P      &kp BSLH
+&kp ESC           &kp A      &kp S         &kp D   &kp F    &kp G   &kp F2             &kp C_VOLUME_DOWN  &kp C_VOLUME_UP     &kp C_PLAY_PAUSE  &mo 3             &none    &kp H   &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LSHFT         &kp Z      &kp X         &kp C   &kp V    &kp B                                         &kp LEFT_GUI        &kp LEFT_GUI                                 &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
+&kp LEFT_COMMAND  &kp GRAVE  &msc SCRL_UP  &mo 3   &kp TAB                  &kp SPACE  &lt 3 BACKSPACE    &kp LEFT_CONTROL    &kp LEFT_ALT      &kp ENTER  &mo 2                   &kp LEFT  &kp DOWN   &kp UP   &kp RIGHT  &kp LEFT_COMMAND
             >;
         };
 
@@ -71,7 +71,7 @@
 &trans  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4  &trans                                                                                   &trans       &trans       &trans                &trans                 &trans          &trans           &trans
 &trans  &kp LA(NUMBER_1)      &kp LA(NUMBER_2)      &kp LA(NUMBER_3)      &kp LA(NUMBER_4)      &kp LA(N5)    &bootloader                                                                              &bootloader  &trans       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans          &trans           &trans
 &trans  &trans                &kp UNDER             &kp MINUS             &kp EQUAL             &kp PLUS      &trans                  &kp C_PREVIOUS  &kp C_NEXT       &bt BT_CLR  &trans              &kp CARET    &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
-&trans  &kp N1                &kp N2                &kp N3                &kp N4                &kp N5                                                &trans           &trans                                       &kp N6       &kp N7                &kp N8                 &kp N9          &kp N0           &trans
+&trans  &kp N1                &kp N2                &kp N3                &kp N4                &kp N5                                                &kp LG(S)        &trans                                       &kp N6       &kp N7                &kp N8                 &kp N9          &kp N0           &trans
 &trans  &kp LS(LA(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))                             &kp LG(P)  &trans          &kp LC(SPACE)    &trans      &bl BL_TOG  &trans                            &kp LG(LA(J))         &kp LG(LA(K))          &kp PERIOD      &trans           &trans
             >;
         };
